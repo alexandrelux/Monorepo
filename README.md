@@ -13,6 +13,11 @@ Configure Yarn Workspaces in package.json file
         "packages/*"
     ]
     (...)
+    "scripts": {
+        "mobile": "npm run start --workspace=mobile",
+        "web": "npm run dev --workspace=web",
+        "desktop": "npm run start --workspace=desktop"
+    }
 ```
 
 Create Package Directories

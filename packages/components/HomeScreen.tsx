@@ -31,12 +31,13 @@ const HomeScreen: React.FC<{navigation?: Navigation}> = ({ navigation }) => {
                     Go to Jane's profile
                 </Link>
                         ) : (
-                <Pressable
+
+                <Text
                     style={styles.link}
                     onPress={() => navigation?.navigate('Profiles', { name: 'Jane' })}
                 >
-                    <Text style={{ color: 'white', textAlign: 'center' }}>Go to Jane's profile</Text>
-                </Pressable>
+                    Go to Jane's profile
+                </Text>
             )}
         </View>
     );
