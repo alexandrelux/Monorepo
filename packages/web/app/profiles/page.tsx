@@ -1,6 +1,6 @@
 'use client';
 
-import ProfileScreen from "components/ProfileScreen";
+import ProfilePage from "app/pages/ProfilePage";
 import { useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
 
@@ -18,5 +18,5 @@ function ProfileContent() {
   const searchParams = useSearchParams();
   const name = searchParams.get('name');
 
-  return <ProfileScreen route={{ params: { name: name } }} />;
+  return <ProfilePage route={{ params: { name: name } }} />;
 }

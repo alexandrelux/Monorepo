@@ -10,7 +10,7 @@ Créer le projet web
 
 ```package.json
 (...)
-  "components": "0.0.1"
+  "app": "0.0.1"
 (...)
 ```
 

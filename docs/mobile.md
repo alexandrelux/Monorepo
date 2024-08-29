@@ -39,7 +39,7 @@ Setup the React Native App
   },
   watchFolders: [
     path.resolve(__dirname, '../../node_modules'),
-    path.resolve(__dirname, '../components'),
+    path.resolve(__dirname, '../app'),
   ],
 };
 
